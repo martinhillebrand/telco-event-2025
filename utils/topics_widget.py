@@ -72,7 +72,7 @@ def get_complaints_app():
     button = widgets.Button(description='Add Topic(s)', button_style='primary')
     
     threshold_slider = widgets.FloatSlider(
-        value=0.65, min=0.1, max=1.0, step=0.05,
+        value=0.50, min=0.1, max=1.0, step=0.05,
         description='Threshold:', continuous_update=False
     )
     
